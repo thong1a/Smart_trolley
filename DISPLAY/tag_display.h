@@ -5,13 +5,13 @@
 #include <stdio.h>
 static CLCD_I2C_Name LCD;
 #define	Cusor_Display	0x7E
-#define DISCOUNT_10		0xF9AD9FB0
+#define DISCOUNT_10	0xF9AD9FB0
 #define	DISCOUNT_MILK	0x1234
-#define	MILK_PRICE		200
-#define	SUGAR_PRICE		100
+#define	MILK_PRICE	200
+#define	SUGAR_PRICE	100
 #define	PORFUME_PRICE	50
-#define	BAG_PRICE			250
-#define	DRINK_PRICE		20
+#define	BAG_PRICE	250
+#define	DRINK_PRICE	20
 typedef enum
 {
 	DISCOUNT_TENPERCENT =2,
