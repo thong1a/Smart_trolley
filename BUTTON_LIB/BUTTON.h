@@ -1,17 +1,4 @@
-/*****************************************************************************************************
-@File:		Button 
-@Author:  khuenguyen
-@website: khuenguyencreator.com
-@youtube: https://www.youtube.com/channel/UCt8cFnPOaHrQXWmVkk-lfvg
-@huong dan su dung:
-- Cau hinh cac chan vao Button la Input_pullup
-- Khoi tao Bien luu gia tri Button:
-	BUTTON_Name Button1;
-- Truyen vao chan ten va chan button do
-	BUTTON_Init(&Button1, Button_GPIO_Port, Button_Pin);
-- Doc gia tri Button
-	Status = Read_Button(&Button1);
-*********************** *****************************************************************************/
+
 #ifndef __BUTTON_H
 #define __BUTTON_H
 
